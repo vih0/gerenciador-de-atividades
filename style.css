@@ -2,25 +2,26 @@ body{
     background-image: linear-gradient(to right,#590d22 ,#800f2f,#a4133c);
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
+    font-family: 'Signika Negative', sans-serif;
 }
 .box{
     display: flex;
+    flex-wrap: wrap;
 }
 .card{
     width:250px;
-    height: 350px;
     background-color: #fff0f3;
+    opacity: 90%;
     margin: 10px 5px ;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
-.card:hover{
-    opacity: 40%;
-}
+
 h1{
     font-size: 30px;
     color:#fff0f3;
+    text-transform: inherit;
 }
 h3{
     border-radius: 10px 10px 0 0;
@@ -30,4 +31,42 @@ h3{
     font-size: 25px;
     padding: 5px 0;
     text-align: center;
+    text-transform: uppercase;
 }
+p{
+    margin: 0;
+    padding: 3px 0 5px 5px;
+    font-weight: 100;
+}
+
+.botao{
+    background-color: #ff4d6d;
+    color:#fff0f3;
+    font-size: 18px;
+    height: 29.9px;
+    border-radius: 5px;
+    text-align: left;
+    margin: 0 4px;
+   
+   
+}
+ul{
+    list-style: none;
+    min-width: 300px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+li{
+    background-color: white;
+    max-width: 200px;
+    height: 45px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 5px;
+    padding: 8px 5px;
+}
+
