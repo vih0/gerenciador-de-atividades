@@ -1,0 +1,33 @@
+body{
+    background-image: linear-gradient(to right,#590d22 ,#800f2f,#a4133c);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box{
+    display: flex;
+}
+.card{
+    width:250px;
+    height: 350px;
+    background-color: #fff0f3;
+    margin: 10px 5px ;
+    border-radius: 10px;
+}
+.card:hover{
+    opacity: 40%;
+}
+h1{
+    font-size: 30px;
+    color:#fff0f3;
+}
+h3{
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    background-color: #c9184a;
+    color: #fff0f3;
+    font-size: 25px;
+    padding: 5px 0;
+    text-align: center;
+}
